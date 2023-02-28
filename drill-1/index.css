@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+header {
+    display: block;
+    position: static;
+    padding: 60px;
+    text-align: center;
+    background: #444444;
+    color: white;
+    font-size: 30px;
+    height: 40px;
+    z-index: 3;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    height: 60px;
+}
+
+.side-left {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 2; /* Stay on top */
+    left: 0;
+    background-color: #d8d8d8; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.side-right {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    background-color: #d8d8d8;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
